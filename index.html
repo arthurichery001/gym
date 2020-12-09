@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Gymso Fitness</title>
     <link rel="stylesheet" href="assets/css/all.css">
     <link rel="stylesheet" href="assets/css/index.css">
 </head>
@@ -12,10 +12,14 @@
     <div class="wrapper">
         <header class="header" id="header">
             <nav class="nav">
-                <div class="title">
-                    <h1 class="logo">Gymso Fitness</h1>
+                <h1 class="logo"><a href="http://">Gymso Fitness</a></h1>
+
+                <div class="toggle" id="burger">
+                    <svg style="width: 35px; height:40px;" className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" /></svg>
                 </div>
-                <ul class="navigation">
+
+                <ul class="navigation" id="navbar">
                     <li><a href="#header">HOME</a></li>
                     <li><a href="#aboutus">ABOUT US</a></li>
                     <li><a href="#classes">CLASSES</a></li>
@@ -227,11 +231,14 @@
         <div class="fleft">
             <p>Copyright © 2020 Gymso Fitness Co.</p>
             <p>Design: Tooplate</p>
+            <form action="" method="get"></form>
         </div>
         <div class="fright">
             <p> hello@company.co 010-020-0840</p>
         </div>
     </footer>
 
+            
+    <script src="./assets/js/index.js"></script>
 </body>
 </html>
